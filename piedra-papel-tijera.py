@@ -93,27 +93,11 @@ def run():
             if jugar == 'SI':
                 opcion_valida = True
             elif jugar == 'NO':
-                print('Hasta pronto ' + nombre_jugador + '!!!')
+                print('\n\nHasta pronto ' + nombre_jugador + '!!!')
                 break
             else:
                 jugar = print(
                     'Tu respuesta no es una opción válida. Escribe si o no: ')
-
-        """count_0, count_1, count_2 = 0, 0, 0
-    for i in range(10):
-        opcion_pc = random.randrange(0, 3)
-        # print(opcion_pc)
-        if opcion_pc == 0:
-            count_0 += 1
-        elif opcion_pc == 1:
-            count_1 += 1
-        elif opcion_pc == 2:
-            count_2 += 1
-        else:
-            pass
-    print('0: ' + str(count_0))
-    print('1: ' + str(count_1))
-    print('2: ' + str(count_2)) """
 
 
 if __name__ == '__main__':
